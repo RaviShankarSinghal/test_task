@@ -8,57 +8,63 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="font-sans bg-gray-100">
+<body class="font-sans">
   <!-- Navbar -->
   <header class="navbar flex flex-wrap items-center justify-between bg-gray-100 px-4 py-3 border-b border-gray-300">
-    <div class="flex items-center">
-      <span class="text-2xl font-bold text-emerald-600">breaz</span>
-      <span class="text-sm font-medium text-gray-600 ml-2">Owners</span>
+    <div class="flex items-end">
+      <span class="text-4xl font-bold text-[#106083]">breaz</span>
+      <span class="text-sm font-semibold text-black ml-2">Owners</span>
     </div>
     <div class="user-menu flex flex-wrap items-center gap-3">
-      <span class="bg-green-500 text-white text-sm px-2 py-1 rounded-md">Online</span>
+      <span class="bg-green-700 text-white text-sm px-2 py-1 rounded-md">Online</span>
       <span class="text-sm">Welcome Hadidi</span>
       <a href="link.html" class="text-sm text-blue-500 hover:underline">Log out</a>
-      <button class="bg-blue-500 text-white text-sm px-3 py-1 rounded-md">HELP</button>
+      <button class="bg-black text-white text-sm px-3 py-1 rounded-md">HELP</button>
     </div>
   </header>
 
   <!-- Menu -->
-  <nav class="menu flex flex-wrap gap-4 justify-center bg-gray-200 py-3 px-4">
-    <a href="link.html" class="text-sm text-gray-700 px-3 py-1 rounded hover:bg-blue-500 hover:text-white">AGGREGATOR</a>
-    <a href="link.html" class="text-sm text-gray-700 px-3 py-1 rounded hover:bg-blue-500 hover:text-white">POS</a>
-    <a href="link.html" class="text-sm text-gray-700 px-3 py-1 rounded hover:bg-blue-500 hover:text-white">KDS</a>
-    <a href="link.html" class="text-sm text-gray-700 px-3 py-1 rounded hover:bg-blue-500 hover:text-white">MAT/INV</a>
-    <a href="link.html" class="text-sm text-gray-700 px-3 py-1 rounded hover:bg-blue-500 hover:text-white">HRMS</a>
-    <a href="link.html" class="text-sm text-gray-700 px-3 py-1 rounded hover:bg-blue-500 hover:text-white">MAINTENANCE</a>
-    <a href="link.html" class="text-sm text-gray-700 px-3 py-1 rounded hover:bg-blue-500 hover:text-white">TASK</a>
-    <a href="link.html" class="text-sm text-gray-700 px-3 py-1 rounded hover:bg-blue-500 hover:text-white">TRAINING</a>
-    <a href="link.html" class="text-sm text-gray-700 px-3 py-1 rounded hover:bg-blue-500 hover:text-white">DMS</a>
-    <a href="link.html" class="text-sm text-gray-700 px-3 py-1 rounded hover:bg-blue-500 hover:text-white">FINANCE</a>
-    <a href="link.html" class="text-sm text-gray-700 px-3 py-1 rounded hover:bg-blue-500 hover:text-white">DAILY TASK</a>
-    <a href="link.html" class="text-sm text-gray-700 px-3 py-1 rounded hover:bg-blue-500 hover:text-white">MASTERS</a>
-    <a href="#" class="text-sm text-white font-bold px-3 py-1 rounded bg-blue-500">REPORTS</a>
+  <nav class="menu flex flex-wrap gap-4 justify-left bg-blue-950 py-3 px-4">
+    <a href="link.html" class="text-sm text-white font-semibold px-3 py-1 rounded hover:text-emerald-400 hover:underline ">AGGREGATOR</a>
+    <a href="link.html" class="text-sm text-white font-semibold px-3 py-1 rounded hover:text-emerald-400 hover:underline">POS</a>
+    <a href="link.html" class="text-sm text-white font-semibold px-3 py-1 rounded hover:text-emerald-400 hover:underline">KDS</a>
+    <a href="link.html" class="text-sm text-white font-semibold px-3 py-1 rounded hover:text-emerald-400 hover:underline">MAT/INV</a>
+    <a href="link.html" class="text-sm text-white font-semibold px-3 py-1 rounded hover:text-emerald-400 hover:underline">HRMS</a>
+    <a href="link.html" class="text-sm text-white font-semibold px-3 py-1 rounded hover:text-emerald-400 hover:underline">MAINTENANCE</a>
+    <a href="link.html" class="text-sm text-white font-semibold px-3 py-1 rounded hover:text-emerald-400 hover:underline">TASK</a>
+    <a href="link.html" class="text-sm text-white font-semibold px-3 py-1 rounded hover:text-emerald-400 hover:underline">TRAINING</a>
+    <a href="link.html" class="text-sm text-white font-semibold px-3 py-1 rounded hover:text-emerald-400 hover:underline">DMS</a>
+    <a href="link.html" class="text-sm text-white font-semibold px-3 py-1 rounded hover:text-emerald-400 hover:underline">FINANCE</a>
+    <a href="link.html" class="text-sm text-white font-semibold px-3 py-1 rounded hover:text-emerald-400 hover:underline">DAILY TASK</a>
+    <a href="link.html" class="text-sm text-white font-semibold px-3 py-1 rounded hover:text-emerald-400 hover:underline">MASTERS</a>
+    <a href="#" class="text-sm font-bold px-3 py-1 rounded text-emerald-400 underline">REPORTS</a>
   </nav>
 
   <!-- Dashboard -->
   <main class="dashboard px-4 py-6">
-    <h1 class="text-lg font-semibold text-center mb-6">TASK PERCENTAGE</h1>
+    <h1 class="text-lg px-4 font-semibold text-left mb-6">TASK PERCENTAGE</h1>
     <div class="flex flex-wrap md:flex-row justify-center gap-6">
       <!-- Left Column -->
       <div class="flex flex-col gap-6 min-w-[300px] md:min-w-[400px]">
         <div class="bg-orange-50 border border-gray-200 shadow-md rounded-md h-[300px] transition-transform hover:scale-105"></div>
         <div class="bg-orange-50 border border-gray-200 shadow-md rounded-md h-[300px] transition-transform hover:scale-105"></div>
+        <div class="bg-orange-50 border border-gray-200 shadow-md rounded-md h-[300px] transition-transform hover:scale-105"></div>
+
       </div>
 
       <!-- Center Column -->
-      <div class="w-full sm:w-[600px] md:w-[900px]">
+      <div class="w-full flex flex-col gap-6 sm:w-[600px] md:w-[990px]">
         <div class="bg-orange-50 border border-gray-200 shadow-md rounded-md h-[620px] transition-transform hover:scale-105"></div>
+        <div class="bg-orange-50 border border-gray-200 shadow-md rounded-md h-[300px] transition-transform hover:scale-105"></div>
+
       </div>
 
       <!-- Right Column -->
       <div class="flex flex-col gap-6 min-w-[300px] md:min-w-[400px]">
         <div class="bg-orange-50 border border-gray-200 shadow-md rounded-md h-[300px] transition-transform hover:scale-105"></div>
         <div class="bg-orange-50 border border-gray-200 shadow-md rounded-md h-[300px] transition-transform hover:scale-105"></div>
+        <div class="bg-orange-50 border border-gray-200 shadow-md rounded-md h-[300px] transition-transform hover:scale-105"></div>
+
       </div>
     </div>
   </main>
